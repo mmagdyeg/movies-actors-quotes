@@ -24,7 +24,7 @@ let html = '';
     ];  
   var index = 0;
   actors.forEach(actor => {
-    fetch(`/actors/${actor.name}.json`)
+    fetch(`actors/${actor.name}.json`)
       .then(response => response.json())
         .then(data =>{   
             data.forEach((d, i) => {
@@ -60,64 +60,4 @@ let html = '';
         container.innerHTML = html;                
     //  }
   }
-  /*
-  var movieQoutes = [];
-  var mIndex = 0;
-  movies.forEach(movie => {
-    fetch(`/movies/${movie.name}.json`)
-      .then(response => response.json())
-        .then(data =>{   
-            data.forEach((d, i) => {
-                d['actor'] = d.character.replace(/-/gi, ' ');;
-                //d['actorImage']= getFirstImageURL(d.character+' face');
-                //console.log(d)
-              });
-              movieQoutes.push(data);  
-
-              mIndex++;
-              if(mIndex==movies.length){
-                showMovieTemplate(movieQoutes.flat())
-              }   
-
-        }).catch(error => console.error(error));          
-  });
-
-  function showMovieTemplate(list){
-    const i = Math.floor(Math.random() * list.length);
-
-    //for (var i = 0;i<actors.length;i++) {
-        html += `
-          <div class="col-md-8 mx-auto">
-              <blockquote class="blockquote">
-                  <p class="mb-0">"${list[i].quote}"</p>
-                  <footer class="blockquote-footer">${list[i].actor} - ${list[i].movie} (${list[i].year})</footer>
-              </blockquote>
-              <img src="${list[i].image_url}" class="rounded-circle" width="100" height="100" alt="Photo of person who said the quote">
-          </div>
-        `;
-        // Append the generated HTML to the container element
-        container.innerHTML = html;                
-    //  }
-  }
- 
-
-
-  function getFirstImageURL(personName) {
-    const apiKey = 'AIzaSyDt22Z5AOa9W61aVoMd5ydQ8ynfivWcwLA'; // Replace with your Google API key
-    const cx = 'a3fdd5a4bbffd4dac'; // Replace with your Google Custom Search Engine ID
-    
-   
-    var apiUrl = `https://customsearch.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${personName}&searchType=image&imgSize=medium&num=1`;
-    fetch(apiUrl)
-      .then(response => response.json())
-        .then(data =>{   
-           // Get the first image URL from the response
-            //const imageURL = data.items[0].link;
-            console.log(data.items[0].image.thumbnailLink);
-            // Return the first image URL
-            //return imageURL;
-        }).catch(error => console.error(error));  
-
-    
-  }
-*/
+  
