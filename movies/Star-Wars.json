@@ -1,0 +1,65 @@
+[
+  {
+    "quote": "May the Force be with you.",
+    "character": "General Dodonna",
+    "image_url": "https://i.pinimg.com/originals/c6/a0/e2/c6a0e2d705eccc981b1bad768b0dc4d4.jpg",
+    "movie": "Star Wars: Episode IV - A New Hope",
+    "year": 1977
+  },
+  {
+    "quote": "Do. Or do not. There is no try.",
+    "character": "Yoda",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/3/2017/12/yoda-the-empire-strikes-back-28a7558.jpg?quality=90&resize=300,300",
+    "movie": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980
+  },
+  {
+    "quote": "I find your lack of faith disturbing.",
+    "character": "Darth Vader",
+    "image_url": "https://static.onecms.io/wp-content/uploads/sites/6/2016/06/star-wars-episode-v-the-empire-strikes-back-darth-vader.jpg",
+    "movie": "Star Wars: Episode IV - A New Hope",
+    "year": 1977
+  },
+  {
+    "quote": "Help me, Obi-Wan Kenobi. You're my only hope.",
+    "character": "Leia Organa",
+    "image_url": "https://intheirownleaguehome.files.wordpress.com/2019/10/carrie_fisher_princess_leia11-e1571513710158.jpg?w=400&h=400&crop=1",
+    "movie": "Star Wars: Episode IV - A New Hope",
+    "year": 1977
+  },
+  {
+    "quote": "The Force will be with you, always.",
+    "character": "Obi-Wan Kenobi",
+    "image_url": "https://static.onecms.io/wp-content/uploads/sites/6/2019/11/revenge-of-the-sith-2000.jpg",
+    "movie": "Star Wars: Episode IV - A New Hope",
+    "year": 1977
+  },
+  {
+    "quote": "These aren't the droids you're looking for.",
+    "character": "Obi-Wan Kenobi",
+    "image_url": "https://static.onecms.io/wp-content/uploads/sites/6/2019/11/revenge-of-the-sith-2000.jpg",
+    "movie": "Star Wars: Episode IV - A New Hope",
+    "year": 1977
+  },
+  {
+    "quote": "It's a trap!",
+    "character": "Admiral Ackbar",
+    "image_url": "https://pyxis.nymag.com/v1/imgs/5fd/b4c/08e5eaa592aaf4c45ca001b680bb827ae7-13-ackbar.rsquare.w700.jpg",
+    "movie": "Star Wars: Episode VI - Return of the Jedi",
+    "year": 1983
+  },
+  {
+    "quote": "Never tell me the odds.",
+    "character": "Han Solo",
+    "image_url": "https://upload.wikimedia.org/wikipedia/hu/c/cd/Han_Solo_TESB.jpg",
+    "movie": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980
+  },
+  {
+    "quote": "I am your father.",
+    "character": "Darth Vader",
+    "image_url": "https://static.onecms.io/wp-content/uploads/sites/6/2016/06/star-wars-episode-v-the-empire-strikes-back-darth-vader.jpg",
+    "movie": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980
+  }
+]
